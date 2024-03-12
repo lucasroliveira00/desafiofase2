@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+    /* mínimo do viewport de 100% que seria o que fica visível na tela*/
+    min-height: 100vh;
+
+}
+
+.page {
+    width: 1008px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px ;
+    
+}
+
+/* text-decoration tira o sublinhado do link */
+a{
+    text-decoration: none;
+    color: #1F1534 ;
+}
+
+ul li a {
+    opacity: 0.5;
+}
+
+/* Hover é para quando passar o mouse em cima*/
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 ul{
+    font-family: "Mulish", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+    font-weight: normal;
+    width: 490px;
+}
+
+h1 span{
+    color: #89c5cc;
+    font-weight: bold;
+
+}
+
+section p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 40px 0 40px;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+
+    background-color: #69B99D;
+    border: 0;
+    border-radius: 4px;
+    padding: 15px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    /*habilitar a mão quando o mouse passar em cima*/
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #49957b;
+}
+
+footer{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a {
+    font-weight: bold;    
+}
+
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
